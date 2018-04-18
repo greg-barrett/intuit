@@ -1,0 +1,220 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*====Custom Styles====*/
+body {
+  background: #293f50;
+  color: #888;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+/* =====Grid==============*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*====Clearfix====*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+
+body {
+  background-color: #ebeef2;
+  width: 1024;
+  font-size: 12px;
+  padding: 5px 0 10px 0;
+
+
+}
+a {
+  text-decoration: none;
+}
+/* =====header==============*/
+.header-top {
+  height: 35px;
+  margin-bottom: 40px;
+  padding-right: 15px;
+  line-height: 14px;
+  padding-top: 3px;
+
+
+}
+
+.header-top p,
+.forgot {
+  float: right;
+}
+/* =====logo==============*/
+
+.top-logo {
+  width:150px;
+  margin: auto;
+}
+#upper-logo {
+  width: 150px;
+
+}
+
+/* =====Buttons==============*/
+.btn {
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: #0077c5;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-sign-in {
+  border: 1px solid black;
+  display: block;
+  float: right;
+  margin-left: 10px;
+  height: 30px;
+  padding: 0 20px;
+  line-height: 28px;
+}
+.form-btn {
+  width: 100%;
+  height: 40px;
+  border-style: none;
+}
+/* =====main Section==============*/
+.main {
+  width: 380px;
+  margin: 0 auto 40px auto;
+  border: 1px solid lightgray;
+  background-color: white;
+  padding: 0 40px 40px 40px;
+  color: #4C4C4C;
+
+}
+.main img {
+  width: 300px;
+  height: 35px;
+  margin: 20px 0;
+  border-bottom: 1px solid lightgray;
+}
+
+.main h1 {
+  font-size: 25px;
+  line-height: 30px;
+}
+
+h1, h4 {
+  text-align:center;
+  font-size: 14px;
+  color: #4C4C4C;
+
+}
+.legal {
+  text-align:center;
+  font-style: italic;
+  color: #bbb;
+  font-size: 12px;
+}
+/* =====Signup Form==============*/
+
+.sign-up-form {
+  padding: 20px 0 40px 0;
+  font-size: 14px;
+}
+
+.field {
+  width: 100%;
+  height: 30px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  margin: 4px 0 25px 0;
+}
+#phone-number {
+  margin:4px 0;
+}
+
+.comment {
+  font-size: 10px;
+  padding-bottom: 15px;
+}
+
+
+/* =====Footer==============*/
+.lower-logo {
+  margin: auto;
+  width:50px;
+}
+
+#logo-small {
+  width: 50px;
+}
+
+.bottom-footer {
+  text-align: center;
+  font-size: 12px;
+}
+.navbar-bottom li {
+  display: inline-block;
+  padding-right: 5px;
+}
+.navbar-bottom li:hover {
+  text-decoration: underline;
+}
